@@ -130,7 +130,6 @@ namespace WindowsFormsApplication1
         {
             try {
                 
-                //var types = Assembly.LoadFrom("C:/Users/tanja/Documents/uni/4 сем/оотп/лаба1.1/OOP-graphical/Trapezium/obj/Debug/Trapezium.dll").GetTypes();
                 var types = typeof(Trapezium.Trapezium).Assembly.GetTypes();
                 foreach (var item in types)
                 {
