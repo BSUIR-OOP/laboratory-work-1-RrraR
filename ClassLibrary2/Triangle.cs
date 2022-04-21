@@ -19,6 +19,7 @@ namespace ClassLibrary2
             _scndPoint.Y = ScndY;
             _thrdPoint.X = ThrdX;
             _thrdPoint.Y = ThrdY;
+            BorderThickness = 1;
 
         }
 

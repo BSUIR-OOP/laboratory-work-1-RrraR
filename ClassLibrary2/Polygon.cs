@@ -32,6 +32,7 @@ namespace ClassLibrary2
             
             _curvePoints = new []
             {_point1, _point2, _point3, _point4, _point5};
+            BorderThickness = 1;
         }
 
         public override void Draw(IDrawable drawable)

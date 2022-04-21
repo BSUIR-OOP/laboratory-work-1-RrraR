@@ -13,6 +13,7 @@ namespace ClassLibrary2
             _rect.Y = StartY;
             _rect.Width = Width;
             _rect.Height = Height;
+            BorderThickness = 1;
         }
         
         public override void Draw(IDrawable drawable)

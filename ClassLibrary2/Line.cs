@@ -13,6 +13,7 @@ namespace ClassLibrary2
             Start.Y = StartY;
             Finish.X = FinishX;
             Finish.Y = FinishY;
+            BorderThickness = 1;
         }
 
         public override void Draw(IDrawable drawable)

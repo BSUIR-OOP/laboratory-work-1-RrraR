@@ -13,6 +13,7 @@ namespace ClassLibrary2
         {
             _pointX = x;
             _pointY = y;
+            BorderThickness = 1;
         }      
      
         public override void Draw(IDrawable drawable)
