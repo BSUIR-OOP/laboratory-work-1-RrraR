@@ -1,20 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Drawing;
-
+﻿using System.Drawing;
 
 namespace ClassLibrary2
 {
-    [Serializable()]
-    public class Shape
+    public abstract class Shape
     {
-        public virtual Graphics Draw(Graphics Space, Pen Color)
-        {
-            return Space;
-        }
+        public int BorderThickness { get; protected set; } = 1;
+        public Color Color { get; } = Color.Black;
+
+        public abstract void Draw(IDrawable drawable);
 
     }
 }

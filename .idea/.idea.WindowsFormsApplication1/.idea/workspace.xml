@@ -5,35 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0906ea-8531-435f-a740-ae9d57ca0658" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApplication1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApplication1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApplication1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApplication1/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApplication1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary2/CommonDrawing.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary2/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassLibrary2/Shape.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trapezium/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassLibrary2/Dot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassLibrary2/Ellipse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassLibrary2/IDrawable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassLibrary2/Line.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassLibrary2/Trapezium.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WindowsFormsApplication1/GraphicsDrawable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WindowsFormsApplication1/ShapeList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApplication1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary2/CommonDrawing.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary2/CommonDrawing.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary2/Shape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary2/Shape.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trapezium/Trapezium.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trapezium/Trapezium.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trapezium/Trapezium.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Trapezium/Trapezium.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApplication1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApplication1/App.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Dot.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Ellipse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Form1.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Form1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Form1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApplication1/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Line.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Polygon.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Properties/Resources.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Properties/Resources.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Properties/Settings.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Properties/Settings.settings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Rectangle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Triangle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/WindowsFormsApplication1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Polygon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary2/Polygon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary2/Rectangle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Triangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary2/Triangle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/WindowsFormsApplication1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApplication1/WindowsFormsApplication1.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,28 +42,36 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/f3/3df27dcf/AppDomain.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/18/66be2ea0/RuntimeAssembly.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/fe/a7c42272/Assembly.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/956abbf94f1849219418742cd2e198a35a5518/fc/32dcb42c/Form.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/e6/a61761c6/AssemblyName.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a100808abb8f41cdbec3b8a68145ac9517a2f8/63/f2276316/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6ae177ca1b8443c79ecffa8539b646db91710/82/e6e2219e/Point.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6ae177ca1b8443c79ecffa8539b646db91710/dd/e3ced532/Graphics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/956abbf94f1849219418742cd2e198a35a5518/27/f749e18f/Control.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/956abbf94f1849219418742cd2e198a35a5518/fc/32dcb42c/Form.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a100808abb8f41cdbec3b8a68145ac9517a2f8/63/f2276316/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/18/66be2ea0/RuntimeAssembly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/e6/a61761c6/AssemblyName.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/f3/3df27dcf/AppDomain.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/fe/a7c42272/Assembly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tanja/Documents/uni/4 сем/оотп/лаба1.1/OOP-graphical/ClassLibrary2/Shape.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tanja/Documents/uni/4 сем/оотп/лаба1.1/OOP-graphical/WindowsFormsApplication1/Form1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26Wgdg6mE2d2zwMDIpWV8NPhNJq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RunManager">
     <configuration name="WindowsFormsApplication1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -104,6 +105,11 @@
       <workItem from="1648549771944" duration="7152000" />
       <workItem from="1649158549767" duration="214000" />
       <workItem from="1649159168486" duration="1818000" />
+      <workItem from="1649275566977" duration="4724000" />
+      <workItem from="1650396744860" duration="1360000" />
+      <workItem from="1650469155541" duration="14548000" />
+      <workItem from="1650538955715" duration="3431000" />
+      <workItem from="1650553002355" duration="4450000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1647549160900</created>
@@ -148,6 +154,16 @@
             </State>
           </value>
         </entry>
+        <entry key="ccca9e04-9810-4056-977d-23f36e5bf1ec">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="ccca9e04-9810-4056-977d-23f36e5bf1ec" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
