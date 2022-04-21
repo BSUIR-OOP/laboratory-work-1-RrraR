@@ -4,12 +4,13 @@
     <projectFile>WindowsFormsApplication1/WindowsFormsApplication1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c0906ea-8531-435f-a740-ae9d57ca0658" name="Changes" comment="changes">
+    <list default="true" id="9c0906ea-8531-435f-a740-ae9d57ca0658" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApplication1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trapezium/Trapezium.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Dot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Ellipse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Line.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trapezium/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trapezium/Trapezium.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApplication1/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApplication1/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApplication1/GraphicsDrawable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApplication1/GraphicsDrawable.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +35,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/e6/a61761c6/AssemblyName.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/f3/3df27dcf/AppDomain.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/fe/a7c42272/Assembly.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tanja/Documents/uni/4 сем/оотп/лаба1.1/OOP-graphical/ClassLibrary2/Shape.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tanja/Documents/uni/4 сем/оотп/лаба1.1/OOP-graphical/WindowsFormsApplication1/Form1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,7 +91,8 @@
       <workItem from="1650396744860" duration="1360000" />
       <workItem from="1650469155541" duration="14548000" />
       <workItem from="1650538955715" duration="3431000" />
-      <workItem from="1650553002355" duration="5506000" />
+      <workItem from="1650553002355" duration="6812000" />
+      <workItem from="1650566138353" duration="1723000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1647549160900</created>
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650557641924</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changes">
+      <created>1650564173176</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650564173176</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

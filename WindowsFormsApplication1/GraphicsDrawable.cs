@@ -44,8 +44,7 @@ namespace WindowsFormsApplication1
             _canvas.DrawLine(new Pen(shape.Color), shape._point2.X, shape._point2.Y, shape._point2.X - 10, shape._point2.Y - 20);
             _canvas.DrawLine(new Pen(shape.Color), shape._point2.X - 10, shape._point2.Y - 20, shape._point1.X + 10, shape._point1.Y - 20);
             _canvas.DrawLine(new Pen(shape.Color), shape._point1.X + 10, shape._point1.Y - 20, shape._point1.X, shape._point1.Y);
-            // Space.DrawLine(Color, _point2.X - 10, _point2.Y - 20, _point1.X + 10, _point1.Y -20);
-            // Space.DrawLine(Color, _point1.X + 10, _point1.Y - 20, _point1.X, _point1.Y);
+            
         }
 
         public void Draw(Triangle shape)
@@ -53,9 +52,6 @@ namespace WindowsFormsApplication1
             _canvas.DrawLine(new Pen(shape.Color), shape._frstPoint, shape._scndPoint);
             _canvas.DrawLine(new Pen(shape.Color), shape._scndPoint, shape._thrdPoint);
             _canvas.DrawLine(new Pen(shape.Color), shape._thrdPoint, shape._frstPoint);
-            // Space.DrawLine(Color, _frstPoint,_scndPoint);
-            // Space.DrawLine(Color, _scndPoint, _thrdPoint);
-            // Space.DrawLine(Color, _thrdPoint, _frstPoint);
         }
     }
 }
