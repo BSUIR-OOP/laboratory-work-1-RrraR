@@ -3,7 +3,6 @@ using System.Drawing;
 
 namespace ClassLibrary2
 {
-    [Serializable()]
     public class Polygon:Shape
     {
         public Point[] _curvePoints = new Point[5];

@@ -3,7 +3,6 @@ using System.Drawing;
 
 namespace ClassLibrary2
 {
-    [Serializable()]
     public class Rectangle:Shape
     {
         public int _startX;

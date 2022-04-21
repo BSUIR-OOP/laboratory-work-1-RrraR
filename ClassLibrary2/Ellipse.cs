@@ -3,7 +3,6 @@ using System.Drawing;
 
 namespace ClassLibrary2
 {
-    [Serializable()]
     public class Ellipse : Shape
     {
         public RectangleF _rect;
